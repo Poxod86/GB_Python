@@ -1,2 +1,3 @@
 # GB_Python
-## Test
+## Seminar1
+* Task1
