@@ -29,5 +29,6 @@ print (berry_list)
 max_berry = 0
 for i in range(len(berry_list)):
     sum = (berry_list[i-1]+berry_list[i]+ berry_list[i-2])
+    print (sum)
     if sum > max_berry: max_berry = sum
-print(sum)
+print(max_berry)
