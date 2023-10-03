@@ -11,5 +11,5 @@ unique_values = data['whoAmI'].unique()
 one_hot_data = pd.DataFrame()
 for value in unique_values:
   one_hot_data[value] = (data['whoAmI'] == value).astype(int)
-one_hot_data.head()
+print(one_hot_data.head())
 # pd.get_dummies(data['whoAmI'])
